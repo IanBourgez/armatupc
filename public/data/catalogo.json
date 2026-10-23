@@ -1,0 +1,78 @@
+{
+  "_info": "Catálogo de componentes. Para agregar uno nuevo, copiá un bloque de la misma categoría y cambiá los datos. 'busqueda' es lo que se busca en las tiendas. 'precioRef' es un precio aproximado en pesos que se usa solo si no se pueden leer los precios en vivo. 'puntaje' es el rendimiento en juegos comparado (más alto = mejor).",
+  "cpu": [
+    { "id": "i3-12100f", "nombre": "Intel Core i3-12100F", "busqueda": "Core i3 12100F", "marca": "Intel", "socket": "LGA1700", "ram": ["DDR4", "DDR5"], "nucleos": 4, "hilos": 8, "ghz": 4.3, "tdp": 58, "graficos": false, "traeCooler": true, "puntaje": 60, "precioRef": 110000 },
+    { "id": "i5-12400f", "nombre": "Intel Core i5-12400F", "busqueda": "Core i5 12400F", "marca": "Intel", "socket": "LGA1700", "ram": ["DDR4", "DDR5"], "nucleos": 6, "hilos": 12, "ghz": 4.4, "tdp": 65, "graficos": false, "traeCooler": true, "puntaje": 68, "precioRef": 160000 },
+    { "id": "i5-13400f", "nombre": "Intel Core i5-13400F", "busqueda": "Core i5 13400F", "marca": "Intel", "socket": "LGA1700", "ram": ["DDR4", "DDR5"], "nucleos": 10, "hilos": 16, "ghz": 4.6, "tdp": 65, "graficos": false, "traeCooler": true, "puntaje": 72, "precioRef": 230000 },
+    { "id": "i5-14600k", "nombre": "Intel Core i5-14600K", "busqueda": "Core i5 14600K", "marca": "Intel", "socket": "LGA1700", "ram": ["DDR4", "DDR5"], "nucleos": 14, "hilos": 20, "ghz": 5.3, "tdp": 125, "graficos": true, "traeCooler": false, "puntaje": 88, "precioRef": 380000 },
+    { "id": "i7-14700k", "nombre": "Intel Core i7-14700K", "busqueda": "Core i7 14700K", "marca": "Intel", "socket": "LGA1700", "ram": ["DDR4", "DDR5"], "nucleos": 20, "hilos": 28, "ghz": 5.6, "tdp": 125, "graficos": true, "traeCooler": false, "puntaje": 92, "precioRef": 520000 },
+    { "id": "u5-245k", "nombre": "Intel Core Ultra 5 245K", "busqueda": "Core Ultra 5 245K", "marca": "Intel", "socket": "LGA1851", "ram": ["DDR5"], "nucleos": 14, "hilos": 14, "ghz": 5.2, "tdp": 125, "graficos": true, "traeCooler": false, "puntaje": 85, "precioRef": 400000 },
+    { "id": "r5-5600", "nombre": "AMD Ryzen 5 5600", "busqueda": "Ryzen 5 5600", "marca": "AMD", "socket": "AM4", "ram": ["DDR4"], "nucleos": 6, "hilos": 12, "ghz": 4.4, "tdp": 65, "graficos": false, "traeCooler": true, "puntaje": 66, "precioRef": 150000 },
+    { "id": "r5-5600g", "nombre": "AMD Ryzen 5 5600G", "busqueda": "Ryzen 5 5600G", "marca": "AMD", "socket": "AM4", "ram": ["DDR4"], "nucleos": 6, "hilos": 12, "ghz": 4.4, "tdp": 65, "graficos": true, "traeCooler": true, "puntaje": 60, "precioRef": 170000 },
+    { "id": "r7-5700x3d", "nombre": "AMD Ryzen 7 5700X3D", "busqueda": "Ryzen 7 5700X3D", "marca": "AMD", "socket": "AM4", "ram": ["DDR4"], "nucleos": 8, "hilos": 16, "ghz": 4.1, "tdp": 105, "graficos": false, "traeCooler": false, "puntaje": 82, "precioRef": 330000 },
+    { "id": "r5-7600", "nombre": "AMD Ryzen 5 7600", "busqueda": "Ryzen 5 7600", "marca": "AMD", "socket": "AM5", "ram": ["DDR5"], "nucleos": 6, "hilos": 12, "ghz": 5.1, "tdp": 65, "graficos": true, "traeCooler": true, "puntaje": 82, "precioRef": 270000 },
+    { "id": "r5-9600x", "nombre": "AMD Ryzen 5 9600X", "busqueda": "Ryzen 5 9600X", "marca": "AMD", "socket": "AM5", "ram": ["DDR5"], "nucleos": 6, "hilos": 12, "ghz": 5.4, "tdp": 65, "graficos": true, "traeCooler": false, "puntaje": 86, "precioRef": 340000 },
+    { "id": "r7-7800x3d", "nombre": "AMD Ryzen 7 7800X3D", "busqueda": "Ryzen 7 7800X3D", "marca": "AMD", "socket": "AM5", "ram": ["DDR5"], "nucleos": 8, "hilos": 16, "ghz": 5.0, "tdp": 120, "graficos": true, "traeCooler": false, "puntaje": 100, "precioRef": 580000 },
+    { "id": "r7-9800x3d", "nombre": "AMD Ryzen 7 9800X3D", "busqueda": "Ryzen 7 9800X3D", "marca": "AMD", "socket": "AM5", "ram": ["DDR5"], "nucleos": 8, "hilos": 16, "ghz": 5.2, "tdp": 120, "graficos": true, "traeCooler": false, "puntaje": 110, "precioRef": 750000 }
+  ],
+  "mother": [
+    { "id": "h610-ddr4", "nombre": "Gigabyte H610M S2H DDR4", "busqueda": "Gigabyte H610M S2H DDR4", "socket": "LGA1700", "ram": "DDR4", "formato": "Micro-ATX", "slotsRam": 2, "m2": 1, "precioRef": 120000 },
+    { "id": "b760-ddr4", "nombre": "ASUS Prime B760M-A D4", "busqueda": "Prime B760M-A D4", "socket": "LGA1700", "ram": "DDR4", "formato": "Micro-ATX", "slotsRam": 4, "m2": 2, "precioRef": 190000 },
+    { "id": "b760-ddr5", "nombre": "MSI PRO B760M-P DDR5", "busqueda": "MSI PRO B760M-P DDR5", "socket": "LGA1700", "ram": "DDR5", "formato": "Micro-ATX", "slotsRam": 2, "m2": 2, "precioRef": 200000 },
+    { "id": "z790-ddr5", "nombre": "Gigabyte Z790 Eagle AX", "busqueda": "Z790 Eagle AX", "socket": "LGA1700", "ram": "DDR5", "formato": "ATX", "slotsRam": 4, "m2": 4, "precioRef": 360000 },
+    { "id": "b860", "nombre": "ASUS Prime B860M-A WiFi", "busqueda": "B860M-A WiFi", "socket": "LGA1851", "ram": "DDR5", "formato": "Micro-ATX", "slotsRam": 4, "m2": 2, "precioRef": 280000 },
+    { "id": "a520", "nombre": "Gigabyte A520M K V2", "busqueda": "A520M K V2", "socket": "AM4", "ram": "DDR4", "formato": "Micro-ATX", "slotsRam": 2, "m2": 1, "precioRef": 95000 },
+    { "id": "b550", "nombre": "MSI B550M PRO-VDH WiFi", "busqueda": "B550M PRO-VDH WIFI", "socket": "AM4", "ram": "DDR4", "formato": "Micro-ATX", "slotsRam": 4, "m2": 2, "precioRef": 165000 },
+    { "id": "a620", "nombre": "ASUS Prime A620M-K", "busqueda": "A620M-K", "socket": "AM5", "ram": "DDR5", "formato": "Micro-ATX", "slotsRam": 2, "m2": 1, "precioRef": 150000 },
+    { "id": "b650", "nombre": "Gigabyte B650M Gaming WiFi", "busqueda": "B650M Gaming WiFi", "socket": "AM5", "ram": "DDR5", "formato": "Micro-ATX", "slotsRam": 4, "m2": 2, "precioRef": 230000 },
+    { "id": "x870", "nombre": "MSI X870 Gaming Plus WiFi", "busqueda": "X870 Gaming Plus WiFi", "socket": "AM5", "ram": "DDR5", "formato": "ATX", "slotsRam": 4, "m2": 3, "precioRef": 420000 }
+  ],
+  "ram": [
+    { "id": "d4-8", "nombre": "8 GB DDR4 3200 MHz (1×8)", "busqueda": "memoria ram ddr4 8gb 3200", "tipo": "DDR4", "gb": 8, "mhz": 3200, "modulos": 1, "precioRef": 30000 },
+    { "id": "d4-16", "nombre": "16 GB DDR4 3200 MHz (2×8)", "busqueda": "memoria ram ddr4 16gb 2x8 3200", "tipo": "DDR4", "gb": 16, "mhz": 3200, "modulos": 2, "precioRef": 60000 },
+    { "id": "d4-32", "nombre": "32 GB DDR4 3600 MHz (2×16)", "busqueda": "memoria ram ddr4 32gb 2x16 3600", "tipo": "DDR4", "gb": 32, "mhz": 3600, "modulos": 2, "precioRef": 115000 },
+    { "id": "d5-16", "nombre": "16 GB DDR5 5600 MHz (2×8)", "busqueda": "memoria ram ddr5 16gb 2x8 5600", "tipo": "DDR5", "gb": 16, "mhz": 5600, "modulos": 2, "precioRef": 80000 },
+    { "id": "d5-32", "nombre": "32 GB DDR5 6000 MHz (2×16)", "busqueda": "memoria ram ddr5 32gb 2x16 6000", "tipo": "DDR5", "gb": 32, "mhz": 6000, "modulos": 2, "precioRef": 150000 },
+    { "id": "d5-64", "nombre": "64 GB DDR5 6000 MHz (2×32)", "busqueda": "memoria ram ddr5 64gb 2x32 6000", "tipo": "DDR5", "gb": 64, "mhz": 6000, "modulos": 2, "precioRef": 290000 }
+  ],
+  "gpu": [
+    { "id": "rtx3050", "nombre": "NVIDIA RTX 3050 8 GB", "busqueda": "placa de video rtx 3050 8gb", "marca": "NVIDIA", "vram": 8, "tdp": 130, "largo": 200, "puntaje": 30, "precioRef": 330000 },
+    { "id": "rx6600", "nombre": "AMD Radeon RX 6600 8 GB", "busqueda": "placa de video rx 6600", "marca": "AMD", "vram": 8, "tdp": 132, "largo": 230, "puntaje": 40, "precioRef": 320000 },
+    { "id": "rx7600", "nombre": "AMD Radeon RX 7600 8 GB", "busqueda": "placa de video rx 7600", "marca": "AMD", "vram": 8, "tdp": 165, "largo": 240, "puntaje": 46, "precioRef": 400000 },
+    { "id": "rtx4060", "nombre": "NVIDIA RTX 4060 8 GB", "busqueda": "placa de video rtx 4060", "marca": "NVIDIA", "vram": 8, "tdp": 115, "largo": 240, "puntaje": 47, "precioRef": 450000 },
+    { "id": "arcb580", "nombre": "Intel Arc B580 12 GB", "busqueda": "intel arc b580", "marca": "Intel", "vram": 12, "tdp": 190, "largo": 272, "puntaje": 52, "precioRef": 450000 },
+    { "id": "rtx5060", "nombre": "NVIDIA RTX 5060 8 GB", "busqueda": "placa de video rtx 5060", "marca": "NVIDIA", "vram": 8, "tdp": 145, "largo": 240, "puntaje": 56, "precioRef": 520000 },
+    { "id": "rtx5060ti16", "nombre": "NVIDIA RTX 5060 Ti 16 GB", "busqueda": "rtx 5060 ti 16gb", "marca": "NVIDIA", "vram": 16, "tdp": 180, "largo": 250, "puntaje": 64, "precioRef": 700000 },
+    { "id": "rx9060xt16", "nombre": "AMD Radeon RX 9060 XT 16 GB", "busqueda": "rx 9060 xt 16gb", "marca": "AMD", "vram": 16, "tdp": 160, "largo": 250, "puntaje": 66, "precioRef": 650000 },
+    { "id": "rx7700xt", "nombre": "AMD Radeon RX 7700 XT 12 GB", "busqueda": "placa de video rx 7700 xt", "marca": "AMD", "vram": 12, "tdp": 245, "largo": 270, "puntaje": 68, "precioRef": 720000 },
+    { "id": "rtx5070", "nombre": "NVIDIA RTX 5070 12 GB", "busqueda": "placa de video rtx 5070", "marca": "NVIDIA", "vram": 12, "tdp": 250, "largo": 300, "puntaje": 85, "precioRef": 1050000 },
+    { "id": "rx9070", "nombre": "AMD Radeon RX 9070 16 GB", "busqueda": "placa de video rx 9070", "marca": "AMD", "vram": 16, "tdp": 220, "largo": 300, "puntaje": 92, "precioRef": 1100000 },
+    { "id": "rx9070xt", "nombre": "AMD Radeon RX 9070 XT 16 GB", "busqueda": "rx 9070 xt", "marca": "AMD", "vram": 16, "tdp": 304, "largo": 320, "puntaje": 104, "precioRef": 1350000 },
+    { "id": "rtx5070ti", "nombre": "NVIDIA RTX 5070 Ti 16 GB", "busqueda": "rtx 5070 ti", "marca": "NVIDIA", "vram": 16, "tdp": 300, "largo": 320, "puntaje": 105, "precioRef": 1600000 },
+    { "id": "rtx5080", "nombre": "NVIDIA RTX 5080 16 GB", "busqueda": "placa de video rtx 5080", "marca": "NVIDIA", "vram": 16, "tdp": 360, "largo": 335, "puntaje": 120, "precioRef": 2300000 }
+  ],
+  "almacenamiento": [
+    { "id": "ssd-sata-480", "nombre": "SSD SATA 480 GB", "busqueda": "disco ssd 480gb sata", "tipo": "SATA", "gb": 480, "precioRef": 40000 },
+    { "id": "nvme-500", "nombre": "SSD NVMe M.2 500 GB", "busqueda": "ssd nvme m.2 500gb", "tipo": "NVMe", "gb": 500, "precioRef": 55000 },
+    { "id": "nvme-1tb", "nombre": "SSD NVMe M.2 1 TB", "busqueda": "ssd nvme m.2 1tb", "tipo": "NVMe", "gb": 1000, "precioRef": 95000 },
+    { "id": "nvme-2tb", "nombre": "SSD NVMe M.2 2 TB", "busqueda": "ssd nvme m.2 2tb", "tipo": "NVMe", "gb": 2000, "precioRef": 180000 }
+  ],
+  "fuente": [
+    { "id": "f500", "nombre": "Fuente 500 W 80 Plus White", "busqueda": "fuente 500w 80 plus", "watts": 500, "certificacion": "80 Plus White", "precioRef": 60000 },
+    { "id": "f650", "nombre": "Fuente 650 W 80 Plus Bronze", "busqueda": "fuente 650w 80 plus bronze", "watts": 650, "certificacion": "80 Plus Bronze", "precioRef": 90000 },
+    { "id": "f750", "nombre": "Fuente 750 W 80 Plus Gold", "busqueda": "fuente 750w 80 plus gold", "watts": 750, "certificacion": "80 Plus Gold", "precioRef": 140000 },
+    { "id": "f850", "nombre": "Fuente 850 W 80 Plus Gold", "busqueda": "fuente 850w 80 plus gold", "watts": 850, "certificacion": "80 Plus Gold", "precioRef": 170000 },
+    { "id": "f1000", "nombre": "Fuente 1000 W 80 Plus Gold", "busqueda": "fuente 1000w 80 plus gold", "watts": 1000, "certificacion": "80 Plus Gold", "precioRef": 240000 }
+  ],
+  "gabinete": [
+    { "id": "gab-matx", "nombre": "Gabinete Micro-ATX compacto", "busqueda": "gabinete micro atx", "formatos": ["Micro-ATX", "Mini-ITX"], "gpuMax": 280, "coolerMax": 150, "precioRef": 55000 },
+    { "id": "gab-atx", "nombre": "Gabinete ATX vidriado 3 coolers", "busqueda": "gabinete atx vidrio templado 3 coolers", "formatos": ["ATX", "Micro-ATX", "Mini-ITX"], "gpuMax": 330, "coolerMax": 160, "precioRef": 80000 },
+    { "id": "gab-atx-grande", "nombre": "Gabinete ATX Mid Tower amplio", "busqueda": "gabinete mid tower atx 4 coolers", "formatos": ["ATX", "Micro-ATX", "Mini-ITX"], "gpuMax": 400, "coolerMax": 170, "precioRef": 130000 }
+  ],
+  "cooler": [
+    { "id": "sin-cooler", "nombre": "Usar el cooler que viene con el procesador", "busqueda": "", "tipo": "stock", "sockets": ["AM4", "AM5", "LGA1700", "LGA1851"], "altura": 0, "tdpMax": 65, "precioRef": 0 },
+    { "id": "torre-basica", "nombre": "Cooler torre 4 heatpipes (ej. ID-Cooling SE-214)", "busqueda": "cooler cpu torre 4 heatpipes", "tipo": "aire", "sockets": ["AM4", "AM5", "LGA1700", "LGA1851"], "altura": 150, "tdpMax": 150, "precioRef": 35000 },
+    { "id": "torre-doble", "nombre": "Cooler torre doble (ej. Thermalright Peerless Assassin)", "busqueda": "thermalright peerless assassin 120", "tipo": "aire", "sockets": ["AM4", "AM5", "LGA1700", "LGA1851"], "altura": 155, "tdpMax": 220, "precioRef": 75000 },
+    { "id": "aio-240", "nombre": "Refrigeración líquida 240 mm", "busqueda": "watercooling 240mm", "tipo": "agua", "sockets": ["AM4", "AM5", "LGA1700", "LGA1851"], "altura": 0, "tdpMax": 250, "precioRef": 110000 }
+  ]
+}

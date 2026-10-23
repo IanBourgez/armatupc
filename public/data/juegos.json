@@ -1,0 +1,19 @@
+{
+  "_info": "fpsGpu = cuadros por segundo en 1080p calidad Alta con una placa de puntaje 100. fpsCpu = máximo que permite un procesador de puntaje 100. Valores estimados a partir de requisitos oficiales y pruebas publicadas en reseñas; sirven como orientación.",
+  "juegos": [
+    { "id": "fortnite", "nombre": "Fortnite", "fpsGpu": 230, "fpsCpu": 240, "vramAlto": 6, "ramMin": 8, "cyri": "Fortnite" },
+    { "id": "valorant", "nombre": "Valorant", "fpsGpu": 700, "fpsCpu": 450, "vramAlto": 2, "ramMin": 4, "cyri": "Valorant" },
+    { "id": "cs2", "nombre": "Counter-Strike 2", "fpsGpu": 480, "fpsCpu": 400, "vramAlto": 4, "ramMin": 8, "cyri": "Counter-Strike 2" },
+    { "id": "lol", "nombre": "League of Legends", "fpsGpu": 600, "fpsCpu": 380, "vramAlto": 2, "ramMin": 4, "cyri": "League of Legends" },
+    { "id": "minecraft", "nombre": "Minecraft (sin shaders)", "fpsGpu": 450, "fpsCpu": 300, "vramAlto": 2, "ramMin": 4, "cyri": "Minecraft" },
+    { "id": "roblox", "nombre": "Roblox", "fpsGpu": 420, "fpsCpu": 280, "vramAlto": 2, "ramMin": 4, "cyri": "Roblox" },
+    { "id": "eafc", "nombre": "EA Sports FC 25", "fpsGpu": 260, "fpsCpu": 240, "vramAlto": 6, "ramMin": 8, "cyri": "EA Sports FC 25" },
+    { "id": "gtav", "nombre": "GTA V", "fpsGpu": 230, "fpsCpu": 170, "vramAlto": 4, "ramMin": 8, "cyri": "Grand Theft Auto V" },
+    { "id": "warzone", "nombre": "Call of Duty: Warzone", "fpsGpu": 190, "fpsCpu": 190, "vramAlto": 8, "ramMin": 8, "cyri": "Call of Duty Warzone" },
+    { "id": "rdr2", "nombre": "Red Dead Redemption 2", "fpsGpu": 160, "fpsCpu": 150, "vramAlto": 6, "ramMin": 12, "cyri": "Red Dead Redemption 2" },
+    { "id": "cyberpunk", "nombre": "Cyberpunk 2077", "fpsGpu": 140, "fpsCpu": 140, "vramAlto": 8, "ramMin": 12, "cyri": "Cyberpunk 2077" },
+    { "id": "bg3", "nombre": "Baldur's Gate 3", "fpsGpu": 150, "fpsCpu": 120, "vramAlto": 8, "ramMin": 16, "cyri": "Baldur's Gate 3" },
+    { "id": "eldenring", "nombre": "Elden Ring (máx. 60 FPS)", "fpsGpu": 135, "fpsCpu": 130, "vramAlto": 6, "ramMin": 12, "cyri": "Elden Ring", "tope": 60 },
+    { "id": "wukong", "nombre": "Black Myth: Wukong", "fpsGpu": 95, "fpsCpu": 140, "vramAlto": 10, "ramMin": 16, "cyri": "Black Myth Wukong" }
+  ]
+}

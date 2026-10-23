@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArmaTuPC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ventana que pregunta la zona al abrir la página -->
+  <div id="modalZona" class="modal">
+    <div class="modal-caja">
+      <div class="logo grande">Arma<span>Tu</span>PC</div>
+      <h2>¿Desde dónde comprás?</h2>
+      <p class="suave">Con tu zona buscamos precios en tiendas cercanas y online.</p>
+      <label>Provincia
+        <select id="provincia"></select>
+      </label>
+      <label>Ciudad
+        <input id="ciudad" list="ciudades" placeholder="Ej: Olavarría" autocomplete="off">
+        <datalist id="ciudades"></datalist>
+      </label>
+      <p id="tiendaLocalInfo" class="info-local"></p>
+      <button id="guardarZona" class="boton">Empezar a armar</button>
+    </div>
+  </div>
+
+  <header class="barra">
+    <div class="logo">Arma<span>Tu</span>PC</div>
+    <div class="barra-der">
+      <span id="estadoTiendas" class="chip">Conectando…</span>
+      <button id="cambiarZona" class="chip boton-chip">📍 <span id="zonaTexto">Elegir zona</span></button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Lista de pasos -->
+    <nav class="pasos" id="pasos"></nav>
+
+    <!-- Componentes de la categoría elegida -->
+    <section class="centro">
+      <div class="centro-cabecera">
+        <div>
+          <h1 id="tituloCategoria">Procesador</h1>
+          <p id="ayudaCategoria" class="suave"></p>
+        </div>
+        <input id="filtro" class="buscador" placeholder="Filtrar…">
+      </div>
+      <div id="lista" class="lista"></div>
+
+      <div id="detalle" class="detalle oculto"></div>
+
+      <details class="novedades">
+        <summary>🔎 Ver lo último que salió en las tiendas</summary>
+        <div class="novedades-buscar">
+          <input id="busquedaNueva" class="buscador" placeholder="Ej: rtx 5060, ryzen 9000…">
+          <button id="botonNovedades" class="boton chico">Buscar</button>
+        </div>
+        <div id="resultadosNovedades" class="grilla-novedades"></div>
+      </details>
+    </section>
+
+    <!-- Resumen de la PC -->
+    <aside class="resumen">
+      <h2>Tu PC</h2>
+      <div id="resumenLista"></div>
+      <div class="total">
+        <span>Total estimado</span>
+        <strong id="total">$ 0</strong>
+      </div>
+      <div class="selector-nivel" id="selectorNivel">
+        <button data-nivel="barato">Barato</button>
+        <button data-nivel="medio" class="activo">Medio</button>
+        <button data-nivel="alto">Confiable</button>
+      </div>
+      <p class="suave chico-txt" id="consumo"></p>
+      <h3>Compatibilidad</h3>
+      <ul id="compatibilidad" class="compat"></ul>
+      <button id="botonRendimiento" class="boton ancho" disabled>Ver rendimiento en juegos</button>
+    </aside>
+  </main>
+
+  <!-- Ventana de rendimiento -->
+  <div id="modalRendimiento" class="modal oculto">
+    <div class="modal-caja grande">
+      <button class="cerrar" id="cerrarRendimiento">✕</button>
+      <h2>Rendimiento en juegos</h2>
+      <p class="suave" id="rendimientoSub"></p>
+      <div class="controles-rend">
+        <label>Resolución
+          <select id="resolucion">
+            <option value="1080">1080p (Full HD)</option>
+            <option value="1440">1440p (2K)</option>
+            <option value="2160">2160p (4K)</option>
+          </select>
+        </label>
+        <label>Calidad
+          <select id="calidad">
+            <option value="bajo">Baja</option>
+            <option value="medio">Media</option>
+            <option value="alto" selected>Alta</option>
+            <option value="ultra">Ultra</option>
+          </select>
+        </label>
+      </div>
+      <div id="tablaJuegos" class="tabla-juegos"></div>
+      <p class="aviso">Los FPS son una estimación hecha con los requisitos oficiales de cada juego y pruebas publicadas en reseñas. El resultado real cambia según la versión del juego, los drivers y la temperatura. Usá los botones de cada juego para comparar con "Can You Run It" y con videos de pruebas reales.</p>
+    </div>
+  </div>
+
+  <script src="dibujos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
